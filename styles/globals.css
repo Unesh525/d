@@ -1,0 +1,1121 @@
+/* styles/global.css */
+
+/* admin dashboard */
+.dashboard {
+  max-width: 1600px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+/* Title + Breadcrumb */
+.titledashboard {
+  margin-bottom: 2rem;
+}
+.titledashboard h2 {
+  font-size: 2.2rem;
+  color: #7e37d8;
+}
+.titledashboard span {
+  color: #111;
+}
+.titledashboard h3 {
+  font-size: 1rem;
+  color: #888;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #999;
+}
+
+/* Cards Section */
+.topfourcards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.four_card {
+  height: 180px;
+  width: 230px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+.four_card:nth-child(1) {
+  background: linear-gradient(to right, #845fb3, #a76ef8);
+}
+.four_card:nth-child(2) {
+  background: linear-gradient(to right, #fd3484, #ff9cc3);
+}
+.four_card:nth-child(3) {
+  background: linear-gradient(to right, #ffc200, #ffd85d);
+}
+.four_card:nth-child(4) {
+  background: linear-gradient(to right, #00d2d7, #07b2dd);
+}
+.four_card span {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* Year Overview Section */
+.year_oveerview {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.leftyearoverview {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Creative Dot Indicators */
+.creative-dots {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.creative-dots li {
+  border-radius: 50%;
+}
+.big-dots {
+  width: 18px;
+  height: 18px;
+  background-color: #7e37d8;
+}
+.semi-big-dots {
+  width: 14px;
+  height: 14px;
+  background-color: #fe80b2;
+}
+.medium-dots {
+  width: 10px;
+  height: 10px;
+  background-color: #07b2dd;
+}
+.semi-medium-dots {
+  width: 8px;
+  height: 8px;
+  background-color: #ffc200;
+}
+.semi-small-dots {
+  width: 6px;
+  height: 6px;
+  background-color: #d8b4fe;
+}
+.small-dots {
+  width: 4px;
+  height: 4px;
+  background-color: #999;
+}
+
+/* Chart Title Alignment */
+.text-center {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Blog Category Table */
+.blogscategory table {
+  margin-top: 1.5rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fefeff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.blogscategory thead {
+  background-color: #f2f2f2;
+}
+.blogscategory td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+/* Login Page css */
+.loginfront {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, #845fb3, #c084fc);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.loginfront h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.loginfront button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: #ffffff;
+  color: #845fb3;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.loginfront button:hover {
+  background-color: #f0e6ff;
+  color: #7734d3;
+  transform: scale(1.05);
+}
+
+
+/* setting component */
+.settingpage {
+  padding: 2rem;
+  max-width: 1600px;
+  margin: auto;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+/* Profile Settings Section */
+.profilesettings {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Left Profile Section */
+.leftprofile_details {
+  background-color: #fefeff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(132, 95, 179, 0.2);
+  flex: 1;
+  max-width: 100%;
+}
+
+.leftprofile_details h2 {
+  font-size: 1.5rem;
+  color: #845fb3;
+}
+
+.leftprofile_details h3 {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5rem;
+}
+
+/* Inputs */
+.leftprofile_details input {
+  width: 90%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+.leftprofile_details input:focus {
+  border-color: #845fb3;
+  outline: none;
+  box-shadow: 0 0 8px rgba(132, 95, 179, 0.2);
+}
+
+/* Save Button */
+.leftprofile_details button {
+  padding: 0.75rem 2rem;
+  background-color: #845fb3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leftprofile_details button:hover {
+  background-color: #7734d3;
+}
+
+/* Right Logout Section */
+.rightlogoutsec {
+  flex-basis: 300px;
+  min-width: 280px;
+}
+
+.topaccountbox {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(132, 95, 179, 0.15);
+}
+
+.topaccountbox h2 {
+  font-size: 1.4rem;
+  color: #7e37d8;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topaccountbox h3 {
+  font-size: 1rem;
+  color: #555;
+}
+
+.topaccountbox span {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.topaccountbox button {
+  padding: 0.6rem 1.5rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.topaccountbox button:hover {
+  background-color: #d32f2f;
+}
+
+
+/* draft */
+.blogpage {
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 150px;
+  padding: 2rem;
+}
+
+/* Title Section */
+.titledashboard h2 {
+  font-size: 2rem;
+  color: #7e37d8;
+}
+.titledashboard span {
+  color: #111;
+}
+.titledashboard h3 {
+  font-size: 1rem;
+  color: #888;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #999;
+  gap: 0.5rem;
+}
+
+/* Table Container */
+.blogstable {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Table Styles */
+.blogstable table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fefeff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.blogstable thead {
+  background-color: #e1edff;
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+}
+
+.blogstable thead th,
+.blogstable tbody td {
+  padding: 1rem;
+  font-size: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.blogstable tbody td h3 {
+  font-weight: 600;
+  color: #444;
+}
+.blogstable tbody td pre {
+  font-family: monospace;
+  color: #555;
+}
+
+/* Row Hover */
+.blogstable tbody tr:hover {
+  background-color: #f8f9ff;
+  transition: background 0.3s ease;
+}
+
+/* Button Styles */
+.blogstable table button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogstable table button:hover {
+  background-color: #7e37d8;
+  border-color: #7e37d8;
+  color: white;
+}
+
+.blogstable table button[title="delete"]:hover {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+/* Pagination */
+.blogpagination {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.blogpagination button {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.blogpagination button.active,
+.blogpagination button:hover {
+  background-color: #7e37d8;
+  border-color: #7e37d8;
+  color: white;
+}
+
+
+/* all published blogs blog>index.js */
+.blogpage {
+  max-width: 1600px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+/* Title + Breadcrumb */
+.titledashboard h2 {
+  font-size: 2rem;
+  color: #7e37d8;
+}
+.titledashboard h2 span {
+  color: #111;
+}
+.titledashboard h3 {
+  font-size: 1rem;
+  color: #888;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #888;
+}
+
+/* Blog Table Container */
+.blogstable {
+  margin-top: 2rem;
+}
+
+/* Search Bar */
+.blogstable .flex {
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.blogstable input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline-color: #7e37d8;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+/* Table Styles */
+.blogstable table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.blogstable thead {
+  background-color: #e1edff;
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+}
+.blogstable th, .blogstable td {
+  padding: 1rem;
+  font-size: 1rem;
+  border-top: 1px solid #eee;
+  vertical-align: middle;
+}
+.blogstable h3 {
+  font-weight: 600;
+  color: #444;
+}
+.blogstable pre {
+  font-family: monospace;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Row hover */
+.blogstable tbody tr:hover {
+  background-color: #f8f9ff;
+  transition: background 0.3s ease;
+}
+
+/* Buttons (Edit/Delete) */
+.blogstable table button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogstable table button:hover {
+  background-color: #7e37d8;
+  border-color: #7e37d8;
+  color: white;
+}
+.blogstable table button[title="delete"]:hover {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+/* Pagination */
+.blogpagination {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.blogpagination button {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.blogpagination button.active,
+.blogpagination button:hover {
+  background-color: #7e37d8;
+  border-color: #7e37d8;
+  color: white;
+}
+.blogpagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+/* add blog */
+/* Page Layout */
+.addblogspage {
+  max-width: 1600px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+/* Page Title */
+.addblogspage h2 {
+  font-size: 2rem;
+  color: #7e37d8;
+}
+.addblogspage h2 span {
+  color: #111;
+}
+.addblogspage h3 {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Breadcrumb Section */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #888;
+}
+
+/* Form Wrapper */
+.blogsadd {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+/* Add Blog Form Styling (Blog.js) */
+.addwebsiteform {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(132, 95, 179, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.addwebsiteform label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4b4b4b;
+  margin-bottom: 0.5rem;
+}
+
+.addwebsiteform input,
+.addwebsiteform select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  transition: all 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.addwebsiteform input:focus,
+.addwebsiteform select:focus {
+  border-color: #845fb3;
+  box-shadow: 0 0 5px rgba(132, 95, 179, 0.5);
+  outline: none;
+}
+
+/* Dropdown Arrow */
+.addwebsiteform select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  background-size: 1rem;
+}
+
+/* Markdown Editor (React Markdown Editor Lite) */
+.description {
+  margin-top: 1rem;
+}
+.description button {
+  background-color: #845fb3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.description button:hover {
+  background-color: #7734d3;
+}
+
+/* Selected Dropdown Summary */
+.existingcategory {
+  font-size: 0.9rem;
+  color: #666;
+}
+.existingcategory span {
+  font-weight: 600;
+  color: #845fb3;
+}
+
+/* Submit Button */
+.addwebbtn {
+  background-color: #845fb3;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  justify-content: center;
+  width: 100%;
+}
+.addwebbtn:hover {
+  background-color: #7734d3;
+}
+
+/* edit blog */
+/* Base Layout - Same as other pages */
+.blogpage {
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 150px;
+  padding: 2rem;
+}
+
+/* Header */
+.titledashboard h2 {
+  font-size: 2rem;
+  color: #7e37d8;
+}
+.titledashboard h2 span {
+  color: #111;
+}
+.titledashboard h3 {
+  font-size: 1rem;
+  color: #888;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 0.5rem;
+  color: #888;
+}
+
+/* Margin Top Section for Blog Form */
+.mt-3 {
+  margin-top: 2rem;
+}
+
+
+/* delete blog */
+.blogpage {
+  max-width: 1600px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+/* Header */
+.titledashboard h2 {
+  font-size: 2rem;
+  color: #f44336;
+}
+.titledashboard h2 span {
+  color: #111;
+}
+.titledashboard h3 {
+  font-size: 1rem;
+  color: #888;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  gap: 0.5rem;
+  color: #888;
+}
+
+/* Confirmation Box */
+.deletesec {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deletecard {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(244, 67, 54, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.deletecard svg {
+  margin-bottom: 1rem;
+}
+
+.deletecard .cookieHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f44336;
+  margin-bottom: 0.5rem;
+}
+
+.deletecard p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.acceptButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #f44336;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.acceptButton:hover {
+  background-color: #d32f2f;
+}
+
+.declineButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.declineButton:hover {
+  background-color: #ddd;
+}
+
+/* aside */
+.asideleft {
+  position: fixed;
+  top: 26px;
+  left: 0;
+  width: 120px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #845fb3, #a76ef8);
+  padding: 2rem 0.5rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.asideleft ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.asideleft li {
+  padding: 1rem 0.8rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.asideleft li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.asideleft li svg {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.asideleft li span {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Active Link Style */
+.navactive {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+
+/* component blog.js */
+/* Form Wrapper */
+.addwebsiteform {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(132, 95, 179, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Form Fields */
+.addwebsiteform label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4b4b4b;
+  margin-bottom: 0.5rem;
+}
+
+.addwebsiteform input,
+.addwebsiteform select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  transition: all 0.2s ease;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.addwebsiteform input:focus,
+.addwebsiteform select:focus {
+  border-color: #845fb3;
+  box-shadow: 0 0 5px rgba(132, 95, 179, 0.5);
+  outline: none;
+}
+
+/* Dropdown Arrow Style */
+.addwebsiteform select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+/* Category/Tag/Status Labels */
+.existingcategory {
+  font-size: 0.9rem;
+  color: #666;
+}
+.existingcategory span {
+  font-weight: 600;
+  color: #845fb3;
+}
+
+/* Markdown Editor */
+.description {
+  margin-top: 1rem;
+}
+.description label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+/* Override default MarkdownEditor theme */
+.rmel-editor {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.rmel-preview {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+.rmel-toolbar {
+  background-color: #fafafa;
+}
+
+/* Markdown Copy Button */
+.description button {
+  background-color: #845fb3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.description button:hover {
+  background-color: #7734d3;
+}
+
+/* Submit Button */
+.addwebbtn {
+  background-color: #845fb3;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  justify-content: center;
+}
+.addwebbtn:hover {
+  background-color: #7734d3;
+}
+
+
+/* Data Loading */
+/* Loader Wrapper */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+/* Spinner Animation */
+.jimu-primary-loading {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 6px solid #845fb3;
+  border-top-color: transparent;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Keyframes for Spin */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Header */
+/* Header Base */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0; /* Sidebar width */
+  right: 0;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  z-index: 100;
+}
+
+/* Logo Area */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #7e37d8;
+}
+
+.headerham {
+  padding: 0.6rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.headerham:hover {
+  background-color: #e0e0e0;
+}
+
+/* Right Navigation Icons */
+.rightnav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.rightnav div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Notification Icon */
+.notification img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+/* Profile Picture */
+.profilenav img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #7e37d8;
+}
+
+
+/* Loading */
